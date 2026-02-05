@@ -6,7 +6,7 @@ touch docs/readme.txt logs/install.log
 echo "Folders are successfully created on $(date)"
 
 # add logic, creating variable with folder name
-FOLDER="logs"
+FOLDER="magic-logs"
 
 if [ -d "$FOLDER" ] 
 then
